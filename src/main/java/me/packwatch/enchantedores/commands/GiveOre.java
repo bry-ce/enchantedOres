@@ -9,8 +9,6 @@ import org.bukkit.inventory.ItemStack;
 
 
 public class GiveOre implements CommandExecutor {
-    private ItemStack item;
-
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 

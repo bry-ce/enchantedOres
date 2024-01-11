@@ -14,6 +14,7 @@ public class EnchantedItems {
 
         ItemMeta m = i.getItemMeta();
 
+        assert m != null;
         m.addEnchant(Enchantment.ARROW_INFINITE, 1, true);
         m.addItemFlags(ItemFlag.HIDE_ENCHANTS);
         m.addItemFlags(ItemFlag.HIDE_ATTRIBUTES);
@@ -29,6 +30,7 @@ public class EnchantedItems {
 
         ItemMeta m = i.getItemMeta();
 
+        assert m != null;
         m.addEnchant(Enchantment.ARROW_INFINITE, 1, true);
         m.addItemFlags(ItemFlag.HIDE_ENCHANTS);
         m.addItemFlags(ItemFlag.HIDE_ATTRIBUTES);
@@ -44,6 +46,7 @@ public class EnchantedItems {
 
         ItemMeta m = i.getItemMeta();
 
+        assert m != null;
         m.addEnchant(Enchantment.ARROW_INFINITE, 1, true);
         m.addItemFlags(ItemFlag.HIDE_ENCHANTS);
         m.addItemFlags(ItemFlag.HIDE_ATTRIBUTES);
@@ -59,6 +62,7 @@ public class EnchantedItems {
 
         ItemMeta m = i.getItemMeta();
 
+        assert m != null;
         m.addEnchant(Enchantment.ARROW_INFINITE, 1, true);
         m.addItemFlags(ItemFlag.HIDE_ENCHANTS);
         m.addItemFlags(ItemFlag.HIDE_ATTRIBUTES);
@@ -74,6 +78,7 @@ public class EnchantedItems {
 
         ItemMeta m = i.getItemMeta();
 
+        assert m != null;
         m.addEnchant(Enchantment.ARROW_INFINITE, 1, true);
         m.addItemFlags(ItemFlag.HIDE_ENCHANTS);
         m.addItemFlags(ItemFlag.HIDE_ATTRIBUTES);
@@ -89,6 +94,7 @@ public class EnchantedItems {
 
         ItemMeta m = i.getItemMeta();
 
+        assert m != null;
         m.addEnchant(Enchantment.ARROW_INFINITE, 1, true);
         m.addItemFlags(ItemFlag.HIDE_ENCHANTS);
         m.addItemFlags(ItemFlag.HIDE_ATTRIBUTES);
