@@ -1,0 +1,4 @@
+name: enchantedOres
+version: '${project.version}'
+main: me.packwatch.enchantedores.EnchantedOres
+api-version: '1.20'
