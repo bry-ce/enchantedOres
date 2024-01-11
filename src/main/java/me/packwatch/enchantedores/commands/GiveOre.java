@@ -1,6 +1,7 @@
 package me.packwatch.enchantedores.commands;
 
 import me.packwatch.enchantedores.items.EnchantedCoal;
+import me.packwatch.enchantedores.items.EnchantedIron;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -23,6 +24,8 @@ public class GiveOre implements CommandExecutor {
         if(args.length == 1){
             if (args[0].equalsIgnoreCase("coal")){
                 p.getInventory().addItem(EnchantedCoal.getEnchCoal());
+            } else if (args[0].equalsIgnoreCase("iron")){
+                p.getInventory().addItem(EnchantedIron.getEnchIron());
             }
 
         }
